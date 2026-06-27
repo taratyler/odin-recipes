@@ -1,0 +1,21 @@
+body {
+    background-color: blanchedalmond;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.card {
+    background-color: white;
+    margin: 20, 30
+}
+
+.title {
+    color: darkolivegreen;
+}
+
+.recipes {
+    list-style: none;
+}
+
