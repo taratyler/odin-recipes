@@ -1,21 +1,35 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #BA3801;
     font-family: "Courier New", monospace;
     font-size: 20px;
     text-align: center;
-    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .card {
-    background-color: white;
-    margin: 20, 30
+    background-color: #FFEC89;
+    margin: 25px 180px;
+    padding: 0.5px;
+    color: #4A69B3;
+    border-radius: 20px;
 }
 
 .title {
-    color: darkolivegreen;
+    font-size: 30px;
 }
 
-.recipes {
+.recipe-info {
+    padding: 20px 40px;
+}
+
+.recipe-info ul,
+.recipe-info ol {
+    text-align: left;
+}
+
+.home-recipes {
     list-style: none;
 }
 
